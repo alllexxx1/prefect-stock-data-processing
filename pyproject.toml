@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prefect-data-processing"
+version = "0.1.0"
+description = ""
+authors = ["alllexxx1 <alekkorpachyov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prefect = "^3.0.2"
+pandas = "^2.2.2"
+python-telegram-bot = "^21.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
